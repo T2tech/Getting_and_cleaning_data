@@ -1,0 +1,34 @@
+Data
+
+The tidy_data.txt data file is a text file, containing space-separated values.
+
+Variables
+
+Each row contains, for a given subject and activity, 79 averaged signal measurements.
+
+Identifiers
+
+subject
+
+Subject identifier, integer, ranges from 1 to 30.
+
+activity
+
+Activity identifier, string with 6 possible values:
+
+WALKING: subject was walking
+WALKING_UPSTAIRS: subject was walking upstairs
+WALKING_DOWNSTAIRS: subject was walking downstairs
+SITTING: subject was sitting
+STANDING: subject was standing
+LAYING: subject was laying
+
+Attribute Information
+
+For each record in the dataset it is provided:
+
+Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+Triaxial Angular velocity from the gyroscope.
+A 561-feature vector with time and frequency domain variables.
+Its activity label.
+An identifier of the subject who carried out the experiment.
